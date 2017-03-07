@@ -5,7 +5,7 @@
 
 	<groupId>guru.springframework</groupId>
 	<artifactId>spring-core-devops</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>Spring Core DevOps</name>
@@ -52,18 +52,10 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
-		<!--MySQL Dep-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>com.github.ulisesbocchio</groupId>
-			<artifactId>jasypt-spring-boot-starter</artifactId>
-			<version>1.6</version>
 		</dependency>
 
 		<!--JMS Dep-->
@@ -92,17 +84,17 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>49ec81db94c2-releases</name>
-			<url>http://artifactory.springframework.guru/artifactory/libs-release-local</url>
+			<name>c66a2edb0c11-releases</name>
+			<url>http://artifactory.zemely.ca:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>49ec81db94c2-snapshots</name>
-			<url>http://artifactory.springframework.guru/artifactory/libs-snapshot-local</url>
+			<name>c66a2edb0c11-snapshots</name>
+			<url>http://artifactory.zemely.ca:8081/artifactory/libs-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
+
 </project>
