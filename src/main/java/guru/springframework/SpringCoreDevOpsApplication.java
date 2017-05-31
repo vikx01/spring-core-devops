@@ -10,7 +10,6 @@ public class SpringCoreDevOpsApplication {
 		SpringApplication.run(SpringCoreDevOpsApplication.class, args);
 
 		//this is a whitespace change test
-		// another test...
 		// just to trigger jenkins build
         //another build trigger
 		//another one on march 6th 2 pm
