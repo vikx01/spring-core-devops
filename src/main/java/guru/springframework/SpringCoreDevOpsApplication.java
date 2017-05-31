@@ -12,7 +12,6 @@ public class SpringCoreDevOpsApplication {
 		//this is a whitespace change test
 		// just to trigger jenkins build
         //another build trigger
-		//another one on march 6th 2 pm
 
 	}
 }
