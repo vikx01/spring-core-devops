@@ -20,7 +20,7 @@ public class PropertySourceMultiFileTest {
     @Autowired
     FakeJmsBroker fakeJmsBroker;
 
-    //@Test
+    @Test
     public void testPropsSet() throws Exception {
         assertEquals("10.10.10.123", fakeJmsBroker.getUrl());
         assertEquals(3330, fakeJmsBroker.getPort().intValue());
