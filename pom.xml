@@ -87,13 +87,13 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>c66a2edb0c11-releases</name>
-			<url>http://artifactory.zemely.ca:8081/artifactory/libs-release-local</url>
+			<name>9341d8893773-releases</name>
+			<url>http://artifactory.zemely.net/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>c66a2edb0c11-snapshots</name>
-			<url>http://artifactory.zemely.ca:8081/artifactory/libs-snapshot</url>
+			<name>9341d8893773-snapshots</name>
+			<url>http://artifactory.zemely.net/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
