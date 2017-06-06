@@ -27,7 +27,7 @@ public class DataSourceTest {
         this.fakeDataSource = fakeDataSource;
     }
 
-    @Test
+//    @Test
     public void TestDataSource() throws Exception {
 
         System.out.println(fakeDataSource.getConnectionInfo());
